@@ -1,0 +1,16 @@
+  601  cat datos_usuario.txt
+  602  grep "model name" /proc/cpuinfo\n
+  603  grep "model name" /proc/cpuinfo | head -n1 >> datos_usuarios.txt\n
+  604  cat datos_usuario.txt
+  605  grep "model name" /proc/cpuinfo | head -n1 >> datos_usuarios.txt\n
+  606  grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt\n
+  607  ls
+  608  rm datos_usuarios.txt
+  609  ls
+  610  cat datos_usuario.txt
+  611  cat <<EOF >> README.md\nAlumno: Mateo\nDivisión: 313 Turno: Noche\nEOF
+  612  ls
+  613  cat README.md
+  614  git add README.md datos_usuarios.txt\ngit commit -m "ADD: Añadiendo Readme y datos de usuario"\ngit push\n
+  615  git add . && git commit -m "ADD: Añadiendo Readme y datos de usuario"" && git push
+  616  git add . && git commit -m "ADD: Añadiendo Readme y datos de usuario" && git push 
